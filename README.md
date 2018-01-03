@@ -5,6 +5,11 @@ Docker Postgres 9.6 for development environment
 brew install libpq
 ```
 
+## Rails
+```
+gem install pg -v '0.21.0' --without-pg
+```
+
 ## Running postgres
 ```
 docker-compose up
