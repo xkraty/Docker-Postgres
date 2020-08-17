@@ -49,6 +49,7 @@ alias postgres_stop="docker-compose -f ~/projects/postgres/docker-compose.yml st
 ```
 alias psql="docker exec -it postgres psql -h postgres -U pguser"
 ```
+<<<<<<< HEAD
 
 
 ## PG Dump All
@@ -62,3 +63,5 @@ docker-compose exec -it postgres pg_dumpall -U pguser > pgdump
 ```
 docker exec -i postgres psql -U pguser < pgdump
 ```
+=======
+>>>>>>> cdceba2b11863615b59adf485c9b7e9ba2726f16
