@@ -3,6 +3,7 @@ Docker Postgres for development environment
 ## Requirements
 ```
 brew install libpq
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 ```
 
 ## Rails
