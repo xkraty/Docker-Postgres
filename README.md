@@ -8,7 +8,7 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 ## Rails
 ```
-gem install pg -v '0.21.0' --without-pg
+gem install pg -- --with-pg-config=/opt/homebrew/opt/libpq/bin/pg_config
 ```
 
 ## Running postgres
