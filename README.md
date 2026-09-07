@@ -33,7 +33,7 @@ docker exec -it postgres psql -h postgres -U pguser
 
 ## Bash
 
-It still an alpine machine
+The image is Debian-based (pgvector/pgvector:pg18), not Alpine.
 ```
 docker exec -it  postgres bash
 ```
